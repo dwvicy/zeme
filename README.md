@@ -1,2 +1,2 @@
 # zeme
-sustainability tracker + dashborad
+sustainability tracker + dashboard
