@@ -17,7 +17,7 @@ class MyDocument extends Document {
         rel="stylesheet"></link>
 
         </Head>
-        <body>
+        <body className="bg-auto md:bg-auto sm:bg-auto xl:bg-cover">
           <Main />
           <NextScript />
         </body>

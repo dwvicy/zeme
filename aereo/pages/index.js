@@ -1,14 +1,23 @@
 
+import Nav from '../components/nav'
+import Image from 'next/image'
 
 export default function IndexPage() {
   return (
     <div>
-
+<Nav/>
       <div className="py-20">
-        <h1 className="text-5xl text-center text-gray-700 dark:text-gray-100 font-black">
-          Next.js + Tailwind CSS 2.0
-        </h1>
+        <h1 className="text-5xl text-center text-black dark:text-white font-black">
+          The planet doesn't need saving,
+        <span className="text-5xl text-center text-white dark:text-white font-black">
+          you do!
+        </span></h1>
       </div>
+      {/* <Image
+        src="https://i.imgur.com/3hpncHZ.jpg"
+        alt=""
+        layout='fill'
+      /> */}
     </div>
   )
 }

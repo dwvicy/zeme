@@ -10,7 +10,20 @@ module.exports = {
       
     },
     
-    extend: {},
+    extend: {
+      rotate: ['active', 'group-hover'],
+      backgroundOpacity: {
+        '10': '0.1',
+        '20': '0.2',
+        '95': '0.95',
+       },
+      backgroundImage: theme => ({
+        'cover': "url('https://i.imgur.com/3hpncHZ.jpg')",
+        'auto': "url('https://i.imgur.com/3hpncHZ.jpg')",
+        
+       }),
+       
+    },
   },
   variants: {
     extend: {},
