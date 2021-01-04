@@ -5,7 +5,8 @@ import Link from 'next/link';
 
 const links = [
   { href: '/about', label: 'about'},
-  { href: '/more', label: 'more'},
+  { href: '/tracker', label: 'tracker'},
+  { href: '/login', label: 'login'},
 ]
 
 export default function Nav() {
@@ -15,11 +16,16 @@ export default function Nav() {
         <li>
           <Link href="/">
             <a className="text-white no-underline text-accent-1 text-lg font-bold dark:text-white ">
-              <img class="h-14 w-28" src="https://i.imgur.com/kAHwJY0.png" alt="" />
+            <div className=" border border-white">
+              <p className="px-4 py-2 text-white font-bold">
+                  aereor
+              </p>
+            </div>
             </a>
           </Link>
         </li>
-        <ul className="flex items-center justify-between space-x-4">
+        <div className=" border border-white">
+        <ul className="px-4 py-2 flex items-center justify-between space-x-4">
           {links.map(({ href, label}) => (
             <li key={`${href}${label}`}>
               <a href={href}>
@@ -28,6 +34,7 @@ export default function Nav() {
             </li>
           ))}
         </ul>
+        </div>
        
        
       </ul>
