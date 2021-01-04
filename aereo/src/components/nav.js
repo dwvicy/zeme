@@ -24,13 +24,13 @@ export default function Nav() {
             </a>
           </Link>
         </li>
-        <div className=" border border-white">
+        <div className=" border border-white shadow-lg">
         <ul className="px-4 py-2 flex items-center justify-between space-x-4">
           {links.map(({ href, label}) => (
             <li key={`${href}${label}`}>
-              <a href={href}>
+              <Link href={href}>
                  {label}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
