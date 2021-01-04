@@ -17,8 +17,8 @@ export default function IndexPage() {
           Climate action is the best insurance plan for your future
         </h2>
         <div className="flex items-center justify-center p-8 space-x-4">
-            <Buttonz text="Log me in" onClick="/"/>
-          <Buttonz text="How to save myself?" onClick="/"/>
+            <Buttonz text="Take Action" onClick="/"/>
+          <Buttonz text="Tell me more" onClick="/"/>
         </div>
       </div>
       
